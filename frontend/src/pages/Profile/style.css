@@ -1,0 +1,104 @@
+.profile-container{ 
+  width: 100%;
+  max-width: 1180px;
+  padding: 10px 30px;
+  margin: 32px auto;
+  background: #fff;
+  border-radius: 8px;
+}
+
+
+.profile-container header { 
+  display: flex; 
+  align-items: center;
+}
+
+.profile-container header img{ 
+  height: 100px;
+}
+
+.profile-container header span{
+  font-size: 20px; 
+  margin-left: 10px;
+  margin-right: 600px;
+}
+
+
+.profile-container header a.new-currency, .profile-container header a.menu{
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c4c4c4;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.profile-container header a.menu{ 
+  margin-left: 5px;
+}
+
+.profile-container header a.menu:hover, .profile-container header a.new-currency:hover{ 
+  opacity: 0.7;
+  border: solid 1px;
+}
+
+.profile-container h1{ 
+  margin-top: 80px;
+  margin-bottom: 24px;
+  margin-left: 10px;
+}
+
+.profile-container ul{ 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+  list-style: none;
+  background: #b9a779;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.profile-container ul li { 
+  background: #c4c4c4;
+  border-radius: 8px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+}
+
+.profile-container ul li div.text{ 
+  line-height: 25px;
+  font-size: 17px;
+}
+
+.profile-container ul li div.text p{ 
+  margin-bottom: 10px;
+}
+
+.profile-container ul li div.botoes{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+} 
+
+.profile-container ul li div.botoes button{ 
+  display: flex;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+.profile-container ul li div.botoes button:hover{ 
+  opacity: 0.8;
+}

@@ -1,0 +1,88 @@
+.logon-container{ 
+  width: 100%; 
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.logon-container div.content{ 
+  width: 100%;
+  padding: 40px 96px;
+  background: #e5e5e5;
+  box-shadow: 0 0 100px rgba(0,0,0, 0.1);
+  border-radius: 8px;
+
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logon-container section.form { 
+  width: 100%; 
+  max-width: 350px;
+  margin-right: 30px;
+  background: #b9A779;
+  border-radius: 8px;
+}
+
+.logon-container section.form header { 
+  margin-top: 20px;
+  font: 700 28px roboto;
+}
+
+.logon-container div.body p { 
+  font-size: 18px;
+  color: #4b4b53;
+  line-height: 32px;
+  margin: 50px 15px 40px 15px;
+  
+}
+
+.logon-container div.body section.buttons{ 
+  margin-top: 50px;
+}
+
+section.buttons{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 20px 30px 20px; 
+  font: 500 14px Roboto;
+}
+
+section.buttons .create{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c4c4c4;
+  height: 40px;
+  width: 140px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 8px;
+  margin-right: 30px;
+  transition: filter 0.2s;
+}
+
+
+section.buttons .list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c4c4c4;
+  height: 40px;
+  width: 140px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 8px;
+  transition: filter 0.2s;
+}
+
+section.buttons .list:hover, section.buttons .create:hover{ 
+  filter: brightness(90%);
+}
