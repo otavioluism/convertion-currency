@@ -38,7 +38,8 @@ Fala aí dev's, tudo certo? Hoje quero compartilhar com vocês uma aplicação W
 
 # RODAR APLICAÇÃO 
 1. Abrir o arquivo backend com seu terminal e o frontend também, depois disso inserir;
-2. #### npm start;
+2. yarn   
+3. #### npm start;
 
   
 
